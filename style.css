@@ -8,42 +8,48 @@
     z-index: -1;
   }
 
-  /* .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-    z-index:-1 !important;
-  } */
-
-.part1{
-    margin-top: 90px;
-    margin-bottom: 500px;
+.backgroundp1{
+  background-image: url(photo/nicecolor.jpg);
+  background-size: cover;
 }
 
+.backgroundp2{
+  background-image: url(photo/bluebg.jpg);
+  background-size: cover;
+}
+
+.contactmebg{
+  background-image: url(photo/nicecolor.jpg);
+  background-size: cover;
+}
 
   footer{
     background-color: black;
   }
-  footer p{
+   footer p{
         color: aliceblue;
-  }
- 
+   }
+
   .space{
     padding-top: 15px;
     padding-bottom: 15px;
   }
 
-  h4{
-    color: whitesmoke;
-  }
+.iconfs{
+  font-size: 80px;
+  margin-left: 10px;
+}
 
-  p{
-    color: whitesmoke;
-  }
+.fp-watermark{
+  display: none;
+}
 
-.high h2{
-  color: whitesmoke;
+
+.somespace{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+i{
+  color: black;
 }

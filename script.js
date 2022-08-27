@@ -1,2 +1,5 @@
-console.log("hello world");
+// console.log("hello world");
 
+function display_alert(){
+    alert("Hello, welcome to my website!")
+}

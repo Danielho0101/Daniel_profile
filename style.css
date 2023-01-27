@@ -166,6 +166,26 @@ color: #f7f8b4;
 font-size: 1.5rem;
 }
 
+.CV {
+  box-sizing: content-box;
+  cursor: pointer;
+  position: relative;
+  margin-top: 1rem;
+  color: red ;
+  background-color: pink;
+  text-align: center;
+  width: 250px;
+  margin-left: 45%;
+  margin-right: 45%;
+  /* display: flex;
+  justify-content:center;
+  align-items:center; */
+
+}
+
+
+
+
 
 /* .fadein{
   display: flex;
@@ -179,3 +199,6 @@ font-size: 1.5rem;
   opacity: 1;
   transform: translateX(0);
 } */
+
+
+

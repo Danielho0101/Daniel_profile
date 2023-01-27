@@ -10,4 +10,3 @@ function display_alert(){
 let get_name = window.prompt("What is you name?");
 
 window.alert("Wellcome to my website " + get_name);
-

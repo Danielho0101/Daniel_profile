@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="flexslider.css"/>
+        <script src="script.js"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
@@ -44,7 +47,7 @@
 									<span class="sr-only">(current)</span>
 								</a>
 								<a class="nav-link text-white" href="bootcamp.html">BootCamp</a>
-								<a class="nav-link text-white" href="workexperience.html">Work Experience</a>
+								<a class="nav-link text-white" href="JQueryWorkExperience.html">Work Experience</a>
 								<a class="nav-link text-white" href="#part4">Contact me</a>
 							</div>
 						</div>
@@ -61,11 +64,46 @@
 						<div class="col-md-6">
 							<img src="photo/roswood.jpeg" width="100%">
 						</div>
-						<div class="col-md-6 change contentColor">
-							<p>Worked with different departments (such as Restaurant Server, Western chef) to create top quality service for our guests </p>
-							<P>Checked pastry products daily to maintain 5-star standard</P>
-							<p>Contributed to daily to-do task meetings with updates and progress</p>
-							<P>work in a 26 person team</P>
+						<div class="col-md-6 contentColor">
+							
+                            <ul>
+                                <li class='backgroundColor'><a class='btn1 titleColorBlack' href=''>Rosewood Hotel</a></li>
+                                <li class='backgroundColor'><a class='btn2 titleColorBlack' href=''>Panorama Hotel</a></li>
+                                <li class='backgroundColor'><a class='btn3 titleColorBlack' href=''>Bakery shop</a></li>
+                            </ul>
+                
+                            <div class='gcontent section1 backgroundColor'>
+                                <ul>
+                                    <li>Worked with different departments (such as Restaurant Server, Western chef) to create top quality service for our guests</li>
+                
+                                    <li>Checked pastry products daily to maintain 5-star standard</li>
+                                    
+                                    <li>Contributed to daily to-do task meetings with updates and progress</li>
+                                    
+                                    <li>work in a 26 person team</li>
+                                </ul>
+                            </div>
+                
+                            <div class='gcontent section2 backgroundColor'>
+                                <ul>
+                                    <li>Responsible for daily production of a la carte pastry/ afternoon tea set menu</li>
+                                    
+                                    <li>Maintain smooth operation of pastry section and ensure high standard of food quality, kitchen hygiene safety</li>
+                                    
+                                    <li>Developed 5 signature product over the Christmas festival</li>
+                                </ul>
+                            </div>
+                
+                            <div class='gcontent section3 backgroundColor'>
+                                <ul>
+                                    <li>Developed 5 signature product over the Christmas festival</li>
+                
+                                    <li>Delivered 200 pieces of product in a fast-paced environment</li>
+                                    
+                                    <li>Completed 150 pieces of baking products regularly with over 35 steps of preparation and execution</li>
+                                </ul>
+                            </div>
+
 						</div>
 					</div>
 				</div>
@@ -76,16 +114,34 @@
 
 					<h1 class="text-center">Work Experience</h1>
 					<div class="row">
-						<div class="col-md-6">
-							<img src="photo/RBTST.jpeg" width="100%">
+						<div class="col-md-2">
+							<!-- empty space -->
 						</div>
-						<div class="col-md-6 contentColor">
-							<p>Responsible for daily production of a la carte pastry/ afternoon tea set menu</p>
-							<p>Maintain smooth operation of pastry section and ensure high standard of food quality, kitchen hygiene safety</p>
-							<p>Developed 5 signature product over the Christmas festival</p>
+						<div class="col-md-8">
+							<div class="flexslider">
+								<ul class="slides">
+								  <li>
+									<img src="photo/ici_cake.jpeg"/>
+								  </li>
+								  <li>
+									<img src="photo/Rosewood_cake.jpeg" />
+								  </li>
+								  <li>
+									<img src="photo/Rosewood_cake2.jpeg" />
+								  </li>
+								  <li>
+									<img src="photo/Rosewood_cake3.jpeg"/>
+								  </li>
+								</ul>
+							  </div>
+							  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+							  <script src="jquery.flexslider-min.js" ></script>
 						</div>
 					</div>
 
+					<div class="col-md-2">
+						<!-- empty space -->
+					</div>
 
 				</div>
 			</div>
@@ -99,7 +155,7 @@
 							<input type="text" name="name" placeholder="Name">
 							<input type="text" name="email" placeholder="Enter Email" class="somespace">
 							<textarea type="text" name="textarea" placeholder="Your message"></textarea>
-							<button type="sumbit">sumbit</button>
+							<button type="sumbit" onclick="HandleSubmitBtn()" class="button-52">submit</button>
 						</div>
 						<div class="col-md-4">
 							<a href="https://www.facebook.com/hck.daniel">
@@ -142,9 +198,42 @@
 							navigation:true,
 							navigationPositio:"right"
 							
-						})
-		</script>;
+						});
 
+
+                        $(document).ready(function(){
+            $('.btn1').click(function(e){
+            e.preventDefault();
+            $('.section1').addClass('active');
+            $('.section2').removeClass('active');
+            $('.section3').removeClass('active');
+        })
+
+        $('.btn2').click(function(e){
+            e.preventDefault();
+            $('.section2').addClass('active');
+            $('.section1').removeClass('active');
+            $('.section3').removeClass('active');
+        })
+        
+        $('.btn3').click(function(e){
+            e.preventDefault();
+            $('.section3').addClass('active');
+            $('.section1').removeClass('active');
+            $('.section2').removeClass('active');
+        })
+
+    });
+
+	$(document).ready(function(){
+  $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide"
+      });
+    });
+});
+
+		</script>
 
 	</body>
 </html>
